@@ -1,0 +1,20 @@
+.action-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.action-bar-wrapper {
+  height: 30px;
+  width: 100%;
+  background-color: #3b4148;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in;
+  filter: brightness(100%);
+}
+
+.action-bar button:hover {
+  filter: brightness(140%);
+}

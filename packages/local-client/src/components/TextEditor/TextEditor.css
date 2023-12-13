@@ -1,0 +1,111 @@
+.w-md-editor-text-pre .token.title {
+  color: #fff !important;
+  font-weight: 500 !important;
+  line-height: unset !important;
+  font-size: unset !important;
+}
+
+.w-md-editor-text-pre .punctuation {
+  color: rgb(158, 231, 255) !important;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.w-md-editor ul {
+  line-height: 1;
+}
+
+.text-editor .w-md-editor-bar svg {
+  display: none;
+}
+
+.text-editor .w-md-editor-bar {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=);
+  height: 13px;
+  cursor: row-resize;
+  background-color: #37414b;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.text-editor em {
+  font-style: italic;
+}
+
+.text-editor .wmde-markdown hr {
+  border-top: 1px solid #dee5ed;
+}
+
+.text-editor .wmde-markdown ol {
+  list-style: decimal;
+}
+
+.text-editor .w-md-editor-show-live {
+  /* Hide menu bar buttons to prevent accidental delete */
+  z-index: 20;
+}
+
+.text-editor .w-md-editor-toolbar {
+  background-color: #3b4148;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  border-radius: 0 !important;
+}
+
+.text-editor .w-md-editor-toolbar li button {
+  color: #fff;
+}
+.text-editor li button svg {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+/* __________________ */
+
+.text-editor .w-md-editor-content {
+  background-color: #1e1e1e;
+  /* background-color: #f6f6f6; */
+}
+
+.text-editor .w-md-editor,
+.text-editor .w-md-editor .w-md-editor-text-pre {
+  color: #fff !important;
+  /* color: #222 !important; */
+}
+
+/* _______________________ */
+
+.text-editor .token.list.punctuation {
+  background-color: unset;
+}
+
+.w-md-editor-preview {
+  box-shadow: inset 1px 0 0 0 #555;
+}
+
+/* markdown */
+.wmde-markdown {
+  background-color: #292929;
+  color: #fff !important;
+}
+/*  */
+
+/* MDEditor.Markdown */
+
+.markdown {
+  border: 1.5px solid #3b4148;
+  padding: 10px 15px;
+  border-radius: 0 0 5px 5px !important;
+  background-color: #292929 !important;
+  overflow: hidden;
+}
+
+/* Heading Color */
+
+.text-editor h2 {
+  color: rgb(176, 225, 241);
+}
+

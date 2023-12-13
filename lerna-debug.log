@@ -1,0 +1,26 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   parallel: true,
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'C:\\Users\\mh\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   script: 'start'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath E:\Works\practice\javaScript-works\TypeScript\TypeScript-Grider\jbook
+3 info Executing command in 3 packages: "npm run start"
+4 silly npmRunScript.stream [ 'start', [], 'cli' ]
+5 silly getExecOpts E:\Works\practice\javaScript-works\TypeScript\TypeScript-Grider\jbook\packages\cli undefined
+6 silly npmRunScript.stream [ 'start', [], 'local-api' ]
+7 silly getExecOpts E:\Works\practice\javaScript-works\TypeScript\TypeScript-Grider\jbook\packages\local-api undefined
+8 silly npmRunScript.stream [ 'start', [], 'local-client' ]
+9 silly getExecOpts E:\Works\practice\javaScript-works\TypeScript\TypeScript-Grider\jbook\packages\local-client undefined
+10 error MaxBufferError: stdout maxBuffer exceeded
+10 error     at PassThrough.<anonymous> (C:\Users\mh\AppData\Roaming\npm\node_modules\lerna\node_modules\get-stream\index.js:41:19)
+10 error     at PassThrough.emit (node:events:526:35)
+10 error     at addChunk (node:internal/streams/readable:545:12)
+10 error     at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+10 error     at Readable.push (node:internal/streams/readable:375:5)
+10 error     at node:internal/streams/transform:182:12
+10 error     at PassThrough._transform (node:internal/streams/passthrough:46:3)
+10 error     at Transform._write (node:internal/streams/transform:175:8)
+10 error     at writeOrBuffer (node:internal/streams/writable:556:12)

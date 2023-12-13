@@ -1,0 +1,45 @@
+.add-cell-wrapper {
+  position: relative;
+  margin: 6px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  transition: all 0.3s ease-out;
+}
+
+.add-cell-wrapper.force-visible {
+  opacity: 1 !important;
+}
+.add-cell-wrapper:hover {
+  opacity: 1;
+  filter: brightness(110%);
+}
+
+.add-btn-wrapper {
+  border-radius: 8px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 20%;
+  border: 1px dashed #5b636e;
+  background-color: transparent;
+  filter: brightness(100%);
+  transition: all 0.3s;
+}
+
+.add-btn-wrapper button {
+  border-radius: 8px !important ;
+  padding: 1em !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-btn-wrapper .text {
+  font-size: 14px !important;
+  color: #fbfbfb !important;
+  letter-spacing: 1px !important;
+}
