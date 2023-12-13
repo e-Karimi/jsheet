@@ -2,10 +2,14 @@
   "name": "@jsheet/local-api",
   "version": "1.0.0",
   "description": "",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "publishConfig": {"access": "public"},
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
     "prepublishOnly": "tsc"
@@ -19,9 +23,9 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@jsheet/local-client": "^1.0.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6",
-    "@jsheet/local-client": "^0.1.0"
+    "http-proxy-middleware": "^2.0.6"
   }
 }
