@@ -8,11 +8,11 @@
 1 notice cli v3.22.1
 2 verbose rootPath E:\Works\practice\javaScript-works\TypeScript\TypeScript-Grider\jbook
 3 info Executing command in 3 packages: "npm run start"
-4 silly npmRunScript.stream [ 'start', [], 'cli' ]
+4 silly npmRunScript.stream [ 'start', [], 'jsheet' ]
 5 silly getExecOpts E:\Works\practice\javaScript-works\TypeScript\TypeScript-Grider\jbook\packages\cli undefined
-6 silly npmRunScript.stream [ 'start', [], 'local-api' ]
+6 silly npmRunScript.stream [ 'start', [], '@jsheet/local-api' ]
 7 silly getExecOpts E:\Works\practice\javaScript-works\TypeScript\TypeScript-Grider\jbook\packages\local-api undefined
-8 silly npmRunScript.stream [ 'start', [], 'local-client' ]
+8 silly npmRunScript.stream [ 'start', [], '@jsheet/local-client' ]
 9 silly getExecOpts E:\Works\practice\javaScript-works\TypeScript\TypeScript-Grider\jbook\packages\local-client undefined
 10 error MaxBufferError: stdout maxBuffer exceeded
 10 error     at PassThrough.<anonymous> (C:\Users\mh\AppData\Roaming\npm\node_modules\lerna\node_modules\get-stream\index.js:41:19)
