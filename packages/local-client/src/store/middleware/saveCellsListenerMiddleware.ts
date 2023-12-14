@@ -11,7 +11,7 @@ saveCellsListenerMiddleware.startListening({
     const {
       cells: { data, order },
     } = listenerApi.getState() as RootState;
-
+    
     const cells = order.map((id) => data[id]);
 
     try {

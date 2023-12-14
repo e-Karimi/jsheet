@@ -3,6 +3,7 @@ import cellsReducer from './slices/cellSlice';
 import bundlesReducer from './slices/bundleSlice';
 import { saveCellsListenerMiddleware } from './middleware/saveCellsListenerMiddleware';
 
+
 const rootReducer = combineReducers({ cells: cellsReducer, bundles: bundlesReducer });
 
 const store = configureStore({
