@@ -7,5 +7,5 @@
   "scripts": {
     "start": "lerna run start --parallel "
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
