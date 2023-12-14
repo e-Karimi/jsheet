@@ -1,6 +1,6 @@
 {
   "name": "jsheet",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "files": [
     "dist"
@@ -18,10 +18,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jsheet/local-client": "^1.0.0"
+    "@jsheet/local-client": "^2.0.0"
   },
   "devDependencies": {
-    "@jsheet/local-api": "^1.0.0",
+    "@jsheet/local-api": "^2.0.0",
     "@types/node": "^20.10.4",
     "commander": "^11.1.0",
     "esbuild": "0.8.27",
